@@ -3,11 +3,11 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <translate
-        android:duration="1000"
+        android:duration="500"
         android:fromYDelta="0%"
         android:toYDelta="20%"/>
     <alpha
-        android:duration="1000"
+        android:duration="500"
         android:fromAlpha="1.0"
         android:toAlpha="0.0"/>
 

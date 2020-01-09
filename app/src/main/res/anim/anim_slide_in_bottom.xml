@@ -3,12 +3,12 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <translate
-        android:duration="1000"
+        android:duration="500"
         android:fromYDelta="100%"
         android:toYDelta="0%">
 
         <alpha
-            android:duration="1000"
+            android:duration="500"
             android:fromAlpha="0.0"
             android:toAlpha="1.0"/>
     </translate>

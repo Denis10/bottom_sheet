@@ -29,10 +29,6 @@
             android:label="@string/title_activity_bottom"
             android:excludeFromRecents="true"
             android:theme="@style/Theme.Transparent" />
-
-        <service
-            android:name=".MyIntentService"
-            android:exported="false"/>
     </application>
 
 </manifest>

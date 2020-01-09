@@ -16,8 +16,14 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnStart).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startService(new Intent(MainActivity.this, MyIntentService.class));
-//                MainActivity.this.finish();
+                startActivity(new Intent(MainActivity.this, BottomActivity.class));
+            }
+        });
+
+        findViewById(R.id.btnStartDialog).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BottomDialog.Companion.createNfcDialog().show(getSupportFragmentManager(), "BottomDialog");
             }
         });
     }

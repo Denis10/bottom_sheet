@@ -13,6 +13,14 @@
         android:id="@+id/btnStart"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:text="Start"
+        android:text="Activity"
+        />
+
+    <Button
+        android:id="@+id/btnStartDialog"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:text="dialog"
         />
 </RelativeLayout>
