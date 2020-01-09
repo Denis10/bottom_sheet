@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/rlBackGround"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/txtSome"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_above="@+id/btnDone"
-        android:textColor="@color/colorPrimary"
         android:background="@color/primary"
         android:gravity="center"
-        android:text="100" />
+        android:text="100"
+        android:textColor="@color/colorPrimary" />
 
     <Button
         android:id="@+id/btnDone"

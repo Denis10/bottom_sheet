@@ -1,10 +1,11 @@
 package com.example.denisvodolazskiy.testbottomscreen;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.TextView;
+import android.view.ViewGroup;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class BottomActivity extends AppCompatActivity {
 
@@ -27,5 +28,7 @@ public class BottomActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+        getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
     }
 }

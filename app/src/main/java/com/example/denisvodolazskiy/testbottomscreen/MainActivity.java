@@ -1,9 +1,10 @@
 package com.example.denisvodolazskiy.testbottomscreen;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startService(new Intent(MainActivity.this, MyIntentService.class));
-                MainActivity.this.finish();
+//                MainActivity.this.finish();
             }
         });
     }

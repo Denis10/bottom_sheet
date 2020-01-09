@@ -13,7 +13,7 @@ public class MyIntentService extends IntentService {
     protected void onHandleIntent(Intent intent) {
 
         try {
-            Thread.sleep(1_000);
+            Thread.sleep(200);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

@@ -7,3 +7,4 @@
 *.hprof
 *.alloc
 *.gfxtrace
+/gradle
